@@ -1,0 +1,313 @@
+/* ===================================
+   AGRIMITRA AI THEME
+=================================== */
+
+
+/* DEFAULT LIGHT MODE */
+
+.stApp {
+
+    background:
+    linear-gradient(
+    135deg,
+    #dbeafe,
+    #eff6ff,
+    #e0f2fe
+    );
+
+    color:#0f172a;
+
+}
+
+
+
+/* ALL NORMAL TEXT */
+
+p,
+span,
+div,
+label {
+
+    color:#0f172a;
+
+}
+
+
+
+/* TITLE */
+
+.main-title {
+
+font-size:55px;
+font-weight:900;
+
+background:
+
+linear-gradient(
+90deg,
+#2563eb,
+#16a34a
+);
+
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+
+}
+
+
+
+
+
+/* CARDS */
+
+.card {
+
+background:
+
+rgba(255,255,255,0.9);
+
+border-radius:25px;
+
+padding:25px;
+
+margin:15px 0;
+
+box-shadow:
+
+0 15px 35px rgba(59,130,246,.18);
+
+}
+
+
+
+.card * {
+
+color:#0f172a !important;
+
+}
+
+
+
+
+/* ===========================
+ CHATBOT LIGHT
+=========================== */
+
+
+.stChatMessage {
+
+background:transparent !important;
+
+}
+
+
+
+.stChatMessage * {
+
+color:#0f172a !important;
+
+}
+
+
+
+.stChatInput {
+
+background:white !important;
+
+}
+
+
+
+.stChatInput textarea {
+
+background:white !important;
+
+color:#0f172a !important;
+
+caret-color:#0f172a !important;
+
+}
+
+
+
+.stChatInput textarea::placeholder {
+
+color:#64748b !important;
+
+}
+
+
+
+
+
+/* =================================
+ DARK MODE
+================================= */
+
+
+/* Streamlit app dark override */
+
+
+.dark .stApp,
+.stApp.dark {
+
+
+background:
+
+linear-gradient(
+135deg,
+#020617,
+#0f172a,
+#1e3a8a
+) !important;
+
+
+color:white !important;
+
+
+}
+
+
+
+.dark *,
+.stApp.dark * {
+
+
+color:white !important;
+
+
+}
+
+
+
+
+/* Cards dark */
+
+
+.dark .card,
+.stApp.dark .card {
+
+
+background:
+
+rgba(15,23,42,.9) !important;
+
+
+}
+
+
+
+.dark .card *,
+.stApp.dark .card * {
+
+
+color:white !important;
+
+
+}
+
+
+
+
+/* Chat dark */
+
+
+.dark .stChatMessage *,
+.stApp.dark .stChatMessage * {
+
+
+color:white !important;
+
+
+}
+
+
+
+.dark .stChatInput,
+.stApp.dark .stChatInput {
+
+
+background:#111827 !important;
+
+
+}
+
+
+
+.dark .stChatInput textarea,
+.stApp.dark .stChatInput textarea {
+
+
+background:#111827 !important;
+
+color:white !important;
+
+caret-color:white !important;
+
+
+}
+
+
+
+
+.dark .stChatInput textarea::placeholder,
+.stApp.dark .stChatInput textarea::placeholder {
+
+
+color:#cbd5e1 !important;
+
+
+}
+
+
+
+
+
+
+
+/* SIDEBAR */
+
+
+section[data-testid="stSidebar"] {
+
+
+background:
+
+linear-gradient(
+180deg,
+#2563eb,
+#0f172a
+);
+
+
+}
+
+
+section[data-testid="stSidebar"] * {
+
+
+color:white !important;
+
+}
+
+
+
+
+
+/* BUTTON */
+
+.stButton button {
+
+background:
+
+linear-gradient(
+90deg,
+#2563eb,
+#16a34a
+);
+
+color:white !important;
+
+border-radius:30px;
+
+}

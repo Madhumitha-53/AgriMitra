@@ -1,0 +1,19 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# Models (optional)
+*.pt
+*.h5
+*.pkl
+
+# Streamlit
+.streamlit/
+
+# VS Code
+.vscode/
